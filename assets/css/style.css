@@ -1,0 +1,134 @@
+body {
+    background-image: url("/assets/img/pizzaBackground.jpeg");
+    background-repeat: repeat;
+    background-size: 1600px;
+    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
+}
+
+.pizza-order-app {
+    background-color: #14401f;
+    border-radius: 0.5rem;
+    border: 2px dashed #060d0b;
+    width: 658px;
+    margin: 60px auto 30px;
+    padding: 45px 30px 30px;
+}
+
+.pizza-order-app img {
+    opacity: 0.9;
+}
+
+.pizza-order-app header {
+    color: #e2d9cf;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.pizza-order-app h2 {
+    color: #8c3623;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.pizza-order-app form {
+    background-color: #e2d9cf;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid white;
+    padding: 30px 15px;
+}
+
+.pizza-order-form {
+    display: block;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+}
+
+
+.pizza-type-item label {
+    color: #594838;
+    font-weight: 700;
+    width: 100%;
+    position: relative;
+}
+
+.pizza-type-item label span {
+    background: #594838;
+    border-radius: 5px;
+    color: #e2d9cf;
+    display: block;
+    padding: 5px 10px;
+    margin: 0 15px;
+}
+
+button[role="button"] {
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    border: 2px solid #8c3623;
+    border-radius: 5px;
+    background-color: #8c3623;
+    color: #e2d9cf;
+    font-weight: 700;
+    padding: 10px 15px;
+    margin: 30px auto;
+    width: 50%;
+    display: block;
+}
+
+button[type="submit"]:hover {
+    background-color: white;
+    border-color: #594838;
+}
+
+.pizza-type-item button {
+    border: 2px solid #594838;
+    border-radius: 5px;
+    background-color: #e2d9cf;
+    color: #594838;
+    font-weight: 700;
+    padding: 5px 15px;
+}
+
+.pizza-type-item button:focus {
+    outline: none;
+    border-color: #8c3623;
+    background-color: #8c3623;
+    font-weight: 400;
+    color: #e2d9cf;
+}
+
+.pizza-type-item button:active {
+    color: #8c3623;
+}
+
+.pizza-type {
+
+    background-image: url("/assets/img/pizza.webp");
+    background-size: 300%;
+    border: 15px solid white;
+    border-radius: 0.5rem;
+    width: 333px;
+    height: 267px;
+    margin: 0 auto 15px;
+}
+
+.pizza-type.pizza1 {
+    background-position: top left;
+}
+
+.pizza-type.pizza2 {
+    background-position: top right;
+}
+
+.pizza-type.pizza3 {
+    background-position: top right;
+}
+
+
